@@ -220,4 +220,174 @@
     #print("You win")
 
 
-    ##
+    ## For loop
+
+#friends = ["Jim", "Karen", "Kevin"]
+#for friend in friends:
+    #print(friend)
+
+#for index in range(3, 10):
+    #print(index)
+
+#friends = ["Jim", "Karen", "Kevin"]
+#for index in range(len(friends)):
+    #print(friends[index])
+
+#for index in range(5):
+    #if index == 0:
+        #print("First iteration")
+    #else:
+        #print("Not first")
+
+    ## Exponent function
+
+#def raiseToPower(baseNum, powNum):
+    #result = 1
+    #for index in range(powNum):
+        #result = result * baseNum
+    #return result
+
+#print(raiseToPower(2, 8))
+
+
+    ## 2D Lists & Nested loops
+
+#numberGrid = [
+    #[1, 2, 3],
+    #[4, 5, 6],
+    #[7, 8, 9],
+    #[0]
+#]
+
+# print(numberGrid[2][2])
+
+# for row in numberGrid:
+#     for col in row:
+#         print(col)
+
+
+    ## Build a translator
+
+# def translate(phrase):
+#     translation = ""
+#     for letter in phrase:
+#         if letter.lower() in "aeiou":
+#             if letter.isupper():
+#                 translation = translation + "g"
+#         else:
+#             translation = translation + letter
+#     return translation
+
+# print(translate(input("Enter a phrase: ")))
+
+
+    ## Comments (#)
+
+#This is a comment
+# print("Comments are fun")
+
+
+    ## Try / except
+
+
+# try:
+#     answer = 10/0
+#     number = int(input("Enter a number: "))
+#     print(number)
+# except ZeroDivisionError as err:
+#     print(err)
+# except ValueError:
+#     print("Invalid Input")
+
+
+    ## Reading files (r = read, w = write, a = append, r+ = reaad and write)
+
+# employeeFile = open("employees.txt", "r")
+
+# print(employeeFile.readable())
+# print(employeeFile.read())
+# print(employeeFile.readline())
+# print(employeeFile.readlines()[1])
+
+# for employee in employeeFile.readlines():
+#     print(employee)
+
+# employeeFile.close()
+
+
+    ## Writing to files (\n = punto aparte)
+
+# employeeFile = open("employees.txt", "a")
+
+# employeeFile.write("Toby - Human Resources")
+# employeeFile.write("\nKelly - Customer Service")
+
+# employeeFile = open("employees1.txt", "w")
+# employeeFile.write("\nKelly - Customer Service")
+
+# employeeFile = open("index.html", "w")
+# employeeFile.write("<p>This is HTML </p>")
+
+# employeeFile.close()
+
+
+    ## Modules and Pip
+
+# import usefulTools
+
+# print(usefulTools.rollDice(10))
+# print(usefulTools.beatles)
+
+# pip install python-docx in Command Prompt
+# import docx
+# docx.
+
+
+    ## Classes & Objects
+
+
+    ## Builiding a Multiple Choice Quiz
+
+# from Question import question
+
+# questionPrompts = [
+#     "What color are apples?\n(a) Red/Green\n(b) Purple\n(c) Orange\n\n",
+#     "What color are bananas?\n(a) Teal\n(b) Magenta\n(c) Yellow\n\n",
+#     "What color are strawberries?\n(a) Yellow\n(b) Red\n(c) Blue\n\n"    
+# ]
+
+# questions = [
+#     Question(questionPrompts[0], "a"),
+#     Question(questionPrompts[1], "c"),
+#     Question(questionPrompts[2], "b")
+# ]
+
+
+# def runTest(questions):
+#     score = 0
+#     for Question in question:
+#         answer = input(Question.prompt)
+#         if answer == Question.answer:
+#             score += 1
+    
+#     print("You got " + str(score) + "/" + str(len(questions)) + "correct")
+
+
+    ## Object functions
+
+# from Student import Student
+
+# student1 = Student("Oscar", "Accounting", 3.1)
+# student2 = Student("Phyllis", "Business", 3.8)
+
+# print(student1.onHonorRoll())
+
+
+    ## Inheritance
+
+# from Chef import Chef
+
+# myChef = Chef()
+
+
+    
